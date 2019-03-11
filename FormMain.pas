@@ -11,7 +11,8 @@ uses
     Vcl.Graphics,
     Vcl.Controls,
     Vcl.Forms,
-    Vcl.Dialogs, Vcl.StdCtrls;
+    Vcl.Dialogs,
+    Vcl.StdCtrls;
 
 type
     TFormMain = class(TForm)

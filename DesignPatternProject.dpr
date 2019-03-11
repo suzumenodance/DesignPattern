@@ -2,7 +2,8 @@ program DesignPatternProject;
 
 uses
   Vcl.Forms,
-  FormMain in 'FormMain.pas' {FormMain};
+  FormMain in 'FormMain.pas' {FormMain},
+  Iterator in 'Iterator\Iterator.pas';
 
 {$R *.res}
 
