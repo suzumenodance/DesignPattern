@@ -25,13 +25,24 @@ type
     { Public declarations }
     end;
 
+var
+    MainForm : TFormMain;
+
 implementation
+
+uses
+    Iterator;
 
 {$R *.dfm}
 
 procedure TFormMain.ButtonIteratorClick(Sender: TObject);
+    var
+        you : TMyTeacher;
     begin
-    //
+    you := TMyTeacher.Create;
+    you.createStudentList;
+    you.callStudents;
+    you.Free;
     end;
 
 end.
